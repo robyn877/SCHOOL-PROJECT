@@ -29,7 +29,7 @@ ul {
   }
 
   body {
-    background-color: red
+    background-color: #f2f2f2;
     }
     
     
@@ -48,4 +48,6 @@ ul {
         font-size: 25px;
       }
       
-      
+      #container { overflow: hidden; }
+      #floated-imgs { float: left; }
+      #floated-imgs img {display: block; }
